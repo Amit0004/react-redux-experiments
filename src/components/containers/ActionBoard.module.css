@@ -1,0 +1,7 @@
+.actionBoard {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    border-radius: 3px;
+    width: 996px;
+}

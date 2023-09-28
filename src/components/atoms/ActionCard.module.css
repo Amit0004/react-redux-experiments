@@ -1,0 +1,32 @@
+.actionCard {
+    border: 1px solid goldenrod;
+    padding: 7px;
+    animation: actionCard 400ms ;
+}
+
+@keyframes actionCard {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}   
+
+.actionCardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actionCardActions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+textarea {
+    width: 100%;
+}

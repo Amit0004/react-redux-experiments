@@ -1,0 +1,14 @@
+.primary {
+    padding: 15px;
+    border: 1px solid transparent;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary:hover {
+    background-color: coral;
+    color: white;
+}
